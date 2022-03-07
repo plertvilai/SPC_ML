@@ -8,6 +8,7 @@ The  <a href="http://spc.ucsd.edu/">Scripps Plankton Camera (SPC) </a> is an und
 
 ## Marine Cladoceran
 The goal of the SPC_ML project is to determine the abundance of marine Cladoceran from the SPC images. This abundance data will be coupled with other environmental parameters to determine the driver of this biological dynamic. 
+
 <img src="images/marine_cladoceran.PNG" alt="marine_cladoceran" width="600">
 
 # Software Setup
