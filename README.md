@@ -6,8 +6,9 @@ The code here is for training and deploying zooplankton classification models us
 ## What is SPC?
 The  <a href="http://spc.ucsd.edu/">Scripps Plankton Camera (SPC) </a> is an underwater microscope system that continuously collects in situ images of plankton at Scripps Pier, La Jolla, CA. Currently, there are more than a billion images of plankton that need to be analyzed for scientific results. 
 
-## Zooplankton
+## Marine Cladoceran
 The goal of the SPC_ML project is to determine the abundance of marine Cladoceran from the SPC images. This abundance data will be coupled with other environmental parameters to determine the driver of this biological dynamic. 
+<img src="images/marine_cladoceran.PNG" alt="marine_cladoceran" width="600">
 
 # Software Setup
 
@@ -20,7 +21,7 @@ There are two software packages needed for this project.
 
 We supply a pre-trained model for marine Cladoceran classification in the `models` folder. The model itself has 13 classes as shown below. However, only the classes of interest are verified and validated for accuracy. 
 <img src="images/zooplankton_classes.PNG" alt="zooplankton_classes" width="600">
-<img src="images/class_accuracy.PNG" alt="class_accuracy" width="500">
+<img src="images/class_accuracy.PNG" alt="class_accuracy" width="300">
 
 # Deployment
 There are three iPython notebooks available in the `ipython` folder for the deployment of SPC_ML.
